@@ -1,8 +1,9 @@
   import { Component } from '@angular/core';
+  import { RouterModule, Router } from '@angular/router';
 
   @Component({
     selector: 'app-home',
-    imports: [],
+    imports: [RouterModule],
     template: `
     <div class="w-full min-h-screen bg-stone-200 relative overflow-hidden">
     <!-- Top Header -->
