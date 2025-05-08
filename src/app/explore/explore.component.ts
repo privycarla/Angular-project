@@ -19,85 +19,60 @@ import { RouterModule } from '@angular/router';
             </svg>
             
             <!-- Explore Text -->
-            <span class="text-neutral-500 text-base font-semibold">Explore</span>
+            <span class="text-neutral-500 text-base font-semibold">E</span>
         
          </div> 
     </div>
 
     
-  
-
-    <!-- Special Offers -->
-    <div class="mt-5 px-5 ">
-      <h2 class="text-xl font-semibold text-black font-poppins mb-3">Special Offers</h2>
-      <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-      
-          <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-            <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/2.jpeg" />
-            <h3 class="text-sm font-semibold text-black">Glow Facial </h3> 
-            <p class="text-[10px] text-zinc-500">Rejuvenate your skin with our signature Glow Facial. Limited-time offer!</p>
-            <div class="text-[10px] text-lime-600 font-semibold mt-1">20% Off</div>
-          </div>
-          <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-            <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/f1.png" />
-            <h3 class="text-sm font-semibold text-black">Buy 1, Get 1 Free Facial!</h3>
-            <p class="text-[10px] text-zinc-500">Bring a friend and enjoy a free facial with every booking.</p>
-          </div>
-          <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-            <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/mani+pedi.jpg" />
-            <h3 class="text-sm font-semibold text-black">Mani-Pedi Combo - Save ₱100!</h3>
-            <p class="text-[10px] text-zinc-500">Pamper your hands and feet with a relaxing manicure and pedicure set.</p>
-          </div>
-          <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-            <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/hr.jpeg" />
-            <h3 class="text-sm font-semibold text-black">Haircut + Free Treatment!</h3>
-            <p class="text-[10px] text-zinc-500">Book a haircut and get a complimentary hair spa or scalp treatment.</p>
-          </div>
-          <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-            <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/br.jpg" />
-            <h3 class="text-sm font-semibold text-black">Brow & Lash Package</h3>
-            <p class="text-[10px] text-zinc-500">Get perfect brows and lashes with our shaping + lash lift combo! </p>
-          </div>
-          <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-            <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/mas.jpg" />
-            <h3 class="text-sm font-semibold text-black">Full Body Massage - Buy 1, Get 1 Half Off!</h3>
-            <p class="text-[10px] text-zinc-500">Book a massage and get your next one at 50% off. </p>
-          </div>
-       
-      </div>
-    </div>
-
-    <!-- Recommended Section -->
-    <div class="mt-5 px-5 pb-20">
-    <h2 class="text-xl font-semibold text-black font-poppins mb-3">Recommended</h2>
-    <div class="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
-      <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-        <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/1.jpg" />
-        <h3 class="text-sm font-semibold text-black">Brightening Facial</h3>
-        <p class="text-[10px] text-zinc-500">Lighten dark spots and get that radiant, even-toned glow.</p>
-        <div class="text-[10px] font-bold text-black mt-1">200.2K reviews</div>
-      </div>
-      <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-        <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/ke.png" />
-        <h3 class="text-sm font-semibold text-black">Keratin Hair Treatment</h3>
-        <p class="text-[10px] text-zinc-500">Smooth, shiny and frizz-free hair that lasts for weeks.</p>
-        <div class="text-[10px] font-bold text-black mt-1">90.2K reviews</div>
-      </div>
-      <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-        <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/br2.jpg" />
-        <h3 class="text-sm font-semibold text-black">Signature Brow Lamination</h3>
-        <p class="text-[10px] text-zinc-500">Get fuller, lifted brows that stay in place for weeks.</p>
-        <div class="text-[10px] font-bold text-black mt-1">72K reviews</div>
-      </div>
-      <div class="min-w-[280px] bg-white rounded-2xl p-3 shadow-md">
-        <img class="w-full h-32 object-cover rounded-xl mb-2" src="assets/sp.jpg" />
-        <h3 class="text-sm font-semibold text-black">Aromatherapy Body Spa</h3>
-        <p class="text-[10px] text-zinc-500">Relax and unwind with a full-body massage infused with essential oils.</p>
-        <div class="text-[10px] font-bold text-black mt-1">50K reviews</div>
-      </div>
+ <!-- Scrollable Container -->
+<div class="absolute top-[200px] left-[42px] w-80 h-[530px] overflow-y-scroll scrollbar-hide pb-27">
+  <div class="space-y-6">
     
+    <!-- Title -->
+    <div class="text-black text-2xl font-semibold font-['Poppins'] mb-2">Results(1003)</div>
+
+    <!-- Service Card 1 -->
+    <div class="mb-6">
+      <img class="w-73 h-40 rounded-[40px]" src="assets/er.jpg" />
+      <div class="pl-4">
+        <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Eyebrow Shaping</div>
+        <div class="text-lime-600 text-[8.86px] font-semibold font-['Poppins']">AimaGlow Recommended</div>
+      </div>
     </div>
+
+    <!-- Service Card 2 -->
+    <div class="mb-6">
+      <img class="w-73 h-40 rounded-[40px]" src="assets/er.jpg" />
+      <div class="pl-4">
+        <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Nail Extensions</div>
+        <div class="text-lime-600 text-[8.86px] font-semibold font-['Poppins']">AimaGlow Recommended</div>
+      </div>
+    </div>
+
+    <!-- Service Card 3 -->
+    <div class="mb-6">
+      <img class="w-73 h-40 rounded-[40px]" src="assets/er.jpg" />
+      <div class="pl-4">
+        <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Nail Extensions</div>
+        <div class="text-lime-600 text-[8.86px] font-semibold font-['Poppins']">AimaGlow Recommended</div>
+      </div>
+    </div>
+
+    <!-- Service Card 4 -->
+    <div class="mb-6">
+      <img class="w-73 h-40 rounded-[40px]" src="assets/er.jpg" />
+      <div class="pl-4">
+        <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Nail Extensions</div>
+        <div class="text-lime-600 text-[8.86px] font-semibold font-['Poppins']">AimaGlow Recommended</div>
+      </div>
+    </div>
+
+    <!-- Add more cards below as needed -->
+    
   </div>
+</div>
+
 
     <!-- Bottom Navigation -->
   <!-- Bottom Navigation -->
