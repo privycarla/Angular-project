@@ -4,6 +4,7 @@ import {LoginComponent} from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ExploreComponent } from './explore/explore.component';
 import { AppointmentComponent } from './appointment/appointment.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 
@@ -29,9 +30,14 @@ const routeConfig: Routes = [
       title: 'Explore page',
     },
     {
-    path: 'appointment',
-    component: AppointmentComponent,    
-    title: 'Appointment page',
+      path: 'appointment',
+      component: AppointmentComponent,    
+      title: 'Appointment page',
+    },
+    {
+      path: 'profile',
+      component: ProfileComponent,
+      title: 'Profile page',
     }
     
 
