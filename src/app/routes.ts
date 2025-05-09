@@ -3,6 +3,7 @@ import {HomeComponent} from './home/home.component';
 import {LoginComponent} from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ExploreComponent } from './explore/explore.component';
+import { AppointmentComponent } from './appointment/appointment.component';
 
 
 
@@ -26,7 +27,13 @@ const routeConfig: Routes = [
       path: 'explore',
       component: ExploreComponent,
       title: 'Explore page',
+    },
+    {
+    path: 'appointment',
+    component: AppointmentComponent,    
+    title: 'Appointment page',
     }
+    
 
   
   ];

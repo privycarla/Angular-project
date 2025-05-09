@@ -129,7 +129,7 @@
   <!-- Bottom Navigation -->
   <div class="fixed bottom-0 w-full h-16 bg-amber-300 flex justify-around items-center rounded-t-2xl">
     <!-- Home -->
-    <button>
+    <button routerLink="/home">
       <svg xmlns="http://www.w3.org/2000/svg"
           class="w-6 h-6 text-lime-800 fill-current"
           viewBox="0 0 20 20">
@@ -148,7 +148,7 @@
     </button>
 
     <!-- Booking/Calendar -->
-    <button>
+    <button routerLink="/appointment">
       <svg xmlns="http://www.w3.org/2000/svg"
           class="w-6 h-6 text-lime-800"
           fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -26,7 +26,7 @@ import { RouterModule } from '@angular/router';
 
     
  <!-- Scrollable Container -->
-<div class="absolute top-[200px] left-[42px] w-80 h-[530px] overflow-y-scroll scrollbar-hide pb-27">
+<div class="absolute top-[185px] left-[42px] w-80 h-[530px] overflow-y-scroll scrollbar-hide pb-23">
   <div class="space-y-6">
     
     <!-- Title -->
@@ -43,7 +43,7 @@ import { RouterModule } from '@angular/router';
 
     <!-- Service Card 2 -->
     <div class="mb-6">
-      <img class="w-73 h-40 rounded-[40px]" src="assets/er.jpg" />
+      <img class="w-73 h-40 rounded-[40px]" src="assets/ne.jpg" />
       <div class="pl-4">
         <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Nail Extensions</div>
         <div class="text-lime-600 text-[8.86px] font-semibold font-['Poppins']">AimaGlow Recommended</div>
@@ -52,29 +52,38 @@ import { RouterModule } from '@angular/router';
 
     <!-- Service Card 3 -->
     <div class="mb-6">
-      <img class="w-73 h-40 rounded-[40px]" src="assets/er.jpg" />
+      <img class="w-73 h-40 rounded-[40px]" src="assets/detox.jpg" />
       <div class="pl-4">
-        <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Nail Extensions</div>
+        <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Detoxifying Wraps</div>
         <div class="text-lime-600 text-[8.86px] font-semibold font-['Poppins']">AimaGlow Recommended</div>
       </div>
     </div>
 
     <!-- Service Card 4 -->
     <div class="mb-6">
-      <img class="w-73 h-40 rounded-[40px]" src="assets/er.jpg" />
+      <img class="w-73 h-40 rounded-[40px]" src="assets/hc.jpg" />
       <div class="pl-4">
-        <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Nail Extensions</div>
+        <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Hair Coloring</div>
         <div class="text-lime-600 text-[8.86px] font-semibold font-['Poppins']">AimaGlow Recommended</div>
       </div>
     </div>
 
-    <!-- Add more cards below as needed -->
+     <!-- Service Card 5 -->
+    <div class="mb-6">
+      <img class="w-73 h-40 rounded-[40px]" src="assets/re.jpg" />
+      <div class="pl-4">
+        <div class="text-black text-xs font-semibold font-['Poppins'] mt-2">Skin Rejuvenation</div>
+        <div class="text-lime-600 text-[8.86px] font-semibold font-['Poppins']">AimaGlow Recommended</div>
+      </div>
+    </div>
+
+    
     
   </div>
 </div>
 
 
-    <!-- Bottom Navigation -->
+   
   <!-- Bottom Navigation -->
   <div class="fixed bottom-0 w-full h-16 bg-amber-300 flex justify-around items-center rounded-t-2xl">
     <!-- Home -->
@@ -97,7 +106,7 @@ import { RouterModule } from '@angular/router';
     </button>
 
     <!-- Booking/Calendar -->
-    <button>
+    <button routerLink="/appointment">
       <svg xmlns="http://www.w3.org/2000/svg"
           class="w-6 h-6 text-lime-800"
           fill="none" viewBox="0 0 24 24" stroke="currentColor">
